@@ -1,0 +1,12 @@
+{
+  "title": "Original concept film",
+  "delivery": {"width": 1920, "height": 1080, "fps": "24", "frames": 240, "audio_sample_rate": 48000},
+  "frame_convention": "zero-based inclusive start; exclusive end; Blender scene frame = video frame + 1",
+  "time_owner": "choose one compositor for the edit",
+  "render_contract": {"beauty": "PNG with documented display transform, or linear EXR for finishing", "alpha": "document straight or premultiplied when used", "seed": 41},
+  "shots": [
+    {"id": "reveal", "start": 0, "end": 48, "purpose": "establish a distinctive subject", "visual": "detail becomes recognizable", "motion": "deliberate close camera move", "lighting": "moving edge highlight", "audio": "restrained opening cue", "owner": "3D renderer"},
+    {"id": "transform", "start": 48, "end": 132, "purpose": "communicate the concept through transformation", "visual": "physical structure transitions into a graphic abstraction", "motion": "geometry and typography share a rhythm", "lighting": "light handoff or deliberate palette change", "audio": "build and synchronized accents", "owner": "3D renderer plus compositor"},
+    {"id": "resolve", "start": 132, "end": 240, "purpose": "pay off the transformation and hold the identity", "visual": "resolved hero image and legible title", "motion": "settle into a readable hold", "lighting": "activation then controlled finish", "audio": "impact with a composed tail", "owner": "compositor with rendered hero layer"}
+  ]
+}

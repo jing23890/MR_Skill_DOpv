@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concept PV Production"
+  short_description: "Build editable concept films with code and 3D rendering"
+  default_prompt: "Use $concept-pv-production to make a short concept PV with scripted rendering, purposeful motion graphics, and an editable project."
